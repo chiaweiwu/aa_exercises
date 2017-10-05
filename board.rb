@@ -1,4 +1,6 @@
 require_relative "tile"
+require "byebug"
+
 
 class Board
   def self.empty_grid
