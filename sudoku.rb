@@ -7,6 +7,7 @@ puts ""
 puts "Does this approach feel familiar?  The approach is a version of binary search.\n\n".red
 
 require_relative "board"
+require "byebug"
 
 class SudokuGame
   def self.from_file(filename)
